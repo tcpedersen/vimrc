@@ -41,6 +41,12 @@ colorscheme monokai
 " Use spaces instead of tabs
 set expandtab
 
+" Automatically indent.
+set autoindent
+
+" Does the right thing (mostly) in programs
+set smartindent
+
 " 1 tab == 4 spaces
 set shiftwidth=4
 set tabstop=4
