@@ -25,6 +25,9 @@ set showmatch
 " How may tenths of seconds to blink when matching brackets
 set mat=2
 
+" Allow mouse clicks to change cursor position
+set mouse=a
+
 " ===== Colors and Syntax Highlighting ======
 
 " Enable syntax highlighting
