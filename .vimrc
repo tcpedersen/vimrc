@@ -60,7 +60,7 @@ set number
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8 
 
-" Add a line indicating 80 columns
+" Add a line indicating 88 columns
 highlight ColorColumn ctermbg=magenta
-set colorcolumn=81
+set colorcolumn=89
 
