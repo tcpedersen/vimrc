@@ -7,6 +7,10 @@ set history=500
 set autoread
 au FocusGained,BufEnter * checktime
 
+" Remap space.
+nnoremap <Space> :
+nnoremap : <Nop>
+
 " ===== User Interface ======
 
 " Always show current position
