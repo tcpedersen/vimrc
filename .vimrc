@@ -11,6 +11,12 @@ au FocusGained,BufEnter * checktime
 nnoremap <Space> :
 nnoremap : <Nop>
 
+" Remap tick.
+noremap <F2> `
+
+" Remap for throwaway recordings.
+noremap @q Q
+
 " ===== User Interface ======
 
 " Always show current position
@@ -37,6 +43,12 @@ set mouse=a
 
 " Show a line under the cursor's position.
 set cursorline
+
+" Show current line number at cursor pos.
+set number
+
+" Show relative line numbers
+set relativenumber
 
 " ===== Colors and Syntax Highlighting ======
 
