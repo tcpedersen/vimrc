@@ -7,9 +7,13 @@ set history=500
 set autoread
 au FocusGained,BufEnter * checktime
 
-" Remap space.
+" Remap space in normal mode.
 nnoremap <Space> :
 nnoremap : <Nop>
+
+" Remap space in visual mode.
+vnoremap <Space> :
+vnoremap : <Nop>
 
 " Remap tick.
 noremap <F2> `
