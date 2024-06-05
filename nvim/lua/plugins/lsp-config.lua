@@ -12,6 +12,7 @@ return {
                 ensure_installed = {
                     "lua_ls",
                     "pyright", -- Requires updated version of nodejs and npm.
+                    "texlab",
                 },
             })
         end
@@ -24,6 +25,7 @@ return {
             -- Include a setup call for each LSP installed by mason-lspconfig.
             lspconfig.lua_ls.setup({})
             lspconfig.pyright.setup({})
+            lspconfig.texlab.setup({})
 
             vim.keymap.set("n", "<F12>", vim.lsp.buf.definition, {})
         end
