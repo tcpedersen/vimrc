@@ -11,6 +11,8 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 
+vim.api.nvim_set_option_value("colorcolumn", "88", {})
+
 vim.diagnostic.config({
   virtual_text = false
 })
